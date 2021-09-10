@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -18538,14 +18538,14 @@ Source: RS Component / Phycomp</description>
 <part name="SP6" library="varistor" deviceset="PCB-SGAP" device="" value="PCB-SGAP"/>
 <part name="SP7" library="varistor" deviceset="PCB-SGAP" device="" value="PCB-SGAP"/>
 <part name="SP8" library="varistor" deviceset="PCB-SGAP" device="" value="PCB-SGAP"/>
-<part name="RB1" library="rcl" deviceset="R-EU_" device="R0603" value="470K"/>
-<part name="RB2" library="rcl" deviceset="R-EU_" device="R0603" value="470K"/>
-<part name="RB3" library="rcl" deviceset="R-EU_" device="R0603" value="470K"/>
-<part name="RB4" library="rcl" deviceset="R-EU_" device="R0603" value="470K"/>
-<part name="RB5" library="rcl" deviceset="R-EU_" device="R0603" value="470K"/>
-<part name="RB6" library="rcl" deviceset="R-EU_" device="R0603" value="470K"/>
-<part name="RB7" library="rcl" deviceset="R-EU_" device="R0603" value="470K"/>
-<part name="RB8" library="rcl" deviceset="R-EU_" device="R0603" value="470K"/>
+<part name="RB1" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="RB2" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="RB3" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="RB4" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="RB5" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="RB6" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="RB7" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
+<part name="RB8" library="rcl" deviceset="R-EU_" device="R0603" value="10K"/>
 <part name="SP0" library="varistor" deviceset="PCB-SGAP" device="" value="PCB-SGAP"/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="JCON" library="pinhead" deviceset="PINHD-2X4" device=""/>
