@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -24736,13 +24736,13 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="GND3" library="SparkFun" deviceset="GND" device=""/>
 <part name="RDC" library="adafruitGood" deviceset="R-US_" device="R0603" value="180"/>
 <part name="QP1" library="transistor-small-signal" deviceset="BSS84" device="" value="AO3407"/>
-<part name="QB1" library="SparkFunNew" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="MMBT3904"/>
+<part name="QB1" library="SparkFunNew" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="AO3400"/>
 <part name="RP1" library="adafruitGood" deviceset="R-US_" device="R0603" value="100K"/>
 <part name="GND21" library="SparkFun" deviceset="GND" device=""/>
 <part name="CB" library="rcl" deviceset="CPOL-EU" device="E7.5-16" value="2200uF/25V"/>
 <part name="GND22" library="SparkFun" deviceset="GND" device=""/>
 <part name="QP2" library="transistor-small-signal" deviceset="BSS84" device="" value="AO3407"/>
-<part name="QB2" library="SparkFunNew" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="MMBT3904"/>
+<part name="QB2" library="SparkFunNew" deviceset="TRANSISTOR_NPN" device="SOT23-3" value="AO3400"/>
 <part name="RP2" library="adafruitGood" deviceset="R-US_" device="R0603" value="100K"/>
 <part name="GND23" library="SparkFun" deviceset="GND" device=""/>
 <part name="D4" library="diode" deviceset="DIODE-" device="SMB" value="SS34"/>
@@ -24758,8 +24758,8 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="J1" library="con-jack" deviceset="JACK-PLUG" device="0"/>
 <part name="RSN1" library="adafruit2013" deviceset="R-US_" device="R0603" value="4K7"/>
 <part name="RSN2" library="adafruit2013" deviceset="R-US_" device="R0603" value="4K7"/>
-<part name="RV1" library="adafruitGood" deviceset="R-US_" device="R0603" value="1K"/>
-<part name="RV2" library="adafruitGood" deviceset="R-US_" device="R0603" value="1K"/>
+<part name="RV1" library="adafruitGood" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="RV2" library="adafruitGood" deviceset="R-US_" device="R0603" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -24768,6 +24768,14 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <text x="6.35" y="-7.62" size="1.778" layer="94">BVE</text>
 <text x="118.11" y="-10.16" size="1.778" layer="94" rot="R90">for curr
 sensing</text>
+<text x="25.4" y="-7.62" size="1.778" layer="94">(Note: this is N-ch MOSFET,
+despite the symbol being
+BJT transistor)</text>
+<wire x1="20.32" y1="5.08" x2="25.4" y2="0" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="22.86" x2="-5.08" y2="10.16" width="0.1524" layer="94"/>
+<text x="-40.64" y="2.54" size="1.778" layer="94">(Note: this is N-ch MOSFET,
+despite the symbol being
+BJT transistor)</text>
 </plain>
 <instances>
 <instance part="TVS1" gate="G$1" x="116.84" y="83.82" smashed="yes">
