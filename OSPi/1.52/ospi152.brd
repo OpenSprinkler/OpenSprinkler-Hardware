@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -751,6 +751,10 @@ Exp.</text>
 <text x="18" y="16" size="1.27" layer="21" ratio="15">1</text>
 <text x="34.5" y="18" size="1.016" layer="21" ratio="15">RPi Pin Headers</text>
 <text x="65.5" y="65" size="1.27" layer="21" font="vector" ratio="15" rot="SR180">(obsolete)</text>
+<circle x="3" y="4" radius="3" width="0" layer="42"/>
+<circle x="97" y="4" radius="3" width="0" layer="42"/>
+<circle x="3" y="76" radius="3" width="0" layer="42"/>
+<circle x="97" y="76" radius="3" width="0" layer="42"/>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -3110,49 +3114,49 @@ design rules under a new name.</description>
 <element name="RS1" library="adafruit2013" package="R0603" value="47" x="26.5" y="21.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="28.532" y="20.611" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="CS1" library="adafruit" package="C0603K" value="0.1u" x="26.5" y="24.5" smashed="yes" rot="R90">
+<element name="CS1" library="adafruit" package="C0603K" value="0.01u" x="26.5" y="24.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="28.15" y="23.7" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="RS2" library="adafruit2013" package="R0603" value="47" x="33.5" y="21.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="35.532" y="20.611" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="CS2" library="adafruit" package="C0603K" value="0.1u" x="33.5" y="24.5" smashed="yes" rot="R90">
+<element name="CS2" library="adafruit" package="C0603K" value="0.01u" x="33.5" y="24.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="35.15" y="23.7" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="RS3" library="adafruit2013" package="R0603" value="47" x="40.5" y="21.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="42.532" y="20.611" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="CS3" library="adafruit" package="C0603K" value="0.1u" x="40.5" y="24.5" smashed="yes" rot="R90">
+<element name="CS3" library="adafruit" package="C0603K" value="0.01u" x="40.5" y="24.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="42.15" y="23.7" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="RS4" library="adafruit2013" package="R0603" value="47" x="47.5" y="21.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="49.532" y="20.611" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="CS4" library="adafruit" package="C0603K" value="0.1u" x="47.5" y="24.5" smashed="yes" rot="R90">
+<element name="CS4" library="adafruit" package="C0603K" value="0.01u" x="47.5" y="24.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="49.15" y="23.7" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="RS5" library="adafruit2013" package="R0603" value="47" x="54.5" y="21.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="56.532" y="20.611" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="CS5" library="adafruit" package="C0603K" value="0.1u" x="54.5" y="24.5" smashed="yes" rot="R90">
+<element name="CS5" library="adafruit" package="C0603K" value="0.01u" x="54.5" y="24.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="56.15" y="23.7" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="RS6" library="adafruit2013" package="R0603" value="47" x="61.5" y="21.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="63.532" y="20.611" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="CS6" library="adafruit" package="C0603K" value="0.1u" x="61.5" y="24.5" smashed="yes" rot="R90">
+<element name="CS6" library="adafruit" package="C0603K" value="0.01u" x="61.5" y="24.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="63.15" y="23.7" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="RS7" library="adafruit2013" package="R0603" value="47" x="68.5" y="21.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="70.532" y="20.611" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="CS7" library="adafruit" package="C0603K" value="0.1u" x="68.5" y="24.5" smashed="yes" rot="R90">
+<element name="CS7" library="adafruit" package="C0603K" value="0.01u" x="68.5" y="24.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="70.15" y="23.7" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="RS8" library="adafruit2013" package="R0603" value="47" x="75.5" y="21.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="77.532" y="20.611" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="CS8" library="adafruit" package="C0603K" value="0.1u" x="75.5" y="24.5" smashed="yes" rot="R90">
+<element name="CS8" library="adafruit" package="C0603K" value="0.01u" x="75.5" y="24.5" smashed="yes" rot="R90">
 <attribute name="VALUE" x="77.15" y="23.7" size="1.016" layer="27" rot="R90"/>
 </element>
 <element name="XL2011" library="adafruit" package="SO08" value="XL2011" x="19" y="51" smashed="yes">
@@ -3504,9 +3508,7 @@ design rules under a new name.</description>
 <wire x1="3.722" y1="68.672" x2="3.722" y2="64.5" width="0.8128" layer="1"/>
 <wire x1="8.98128125" y1="68.918715625" x2="6.031284375" y2="68.918715625" width="0.8128" layer="1"/>
 <wire x1="6.031284375" y1="68.918715625" x2="5" y2="69.95" width="0.8128" layer="1"/>
-<wire x1="3.722" y1="64.5" x2="3.722" y2="73.422" width="0.8128" layer="16"/>
-<wire x1="8.07" y1="77.77" x2="3.722" y2="73.422" width="0.8128" layer="16"/>
-<wire x1="8.07" y1="77.77" x2="9.87" y2="77.77" width="0.8128" layer="16"/>
+<wire x1="3.722" y1="70.172" x2="3.722" y2="64.5" width="0.8128" layer="16"/>
 <wire x1="9.87" y1="77.77" x2="12.41" y2="77.77" width="0.8128" layer="1"/>
 <wire x1="17.095" y1="47.9266" x2="17.095" y2="49.395" width="0.6096" layer="1"/>
 <wire x1="17.095" y1="49.395" x2="16.09" y2="50.4" width="0.6096" layer="1"/>
@@ -3543,6 +3545,10 @@ design rules under a new name.</description>
 <wire x1="84" y1="70.8" x2="84" y2="72.5" width="0.3048" layer="1"/>
 <wire x1="91.9" y1="11.5" x2="78.4" y2="11.5" width="0.3048" layer="1"/>
 <wire x1="76.7" y1="65.7" x2="77.9" y2="66.9" width="0.3048" layer="1"/>
+<wire x1="9.87" y1="77.77" x2="8.72" y2="77.77" width="0.8128" layer="16"/>
+<wire x1="8.72" y1="77.77" x2="7.65" y2="76.7" width="0.8128" layer="16"/>
+<wire x1="7.65" y1="74.1" x2="3.722" y2="70.172" width="0.8128" layer="16"/>
+<wire x1="7.65" y1="76.7" x2="7.65" y2="74.1" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="74HC595" pad="5"/>
@@ -4623,17 +4629,6 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
-<errors>
-<approved hash="5,16,715ffcb4b93432cf"/>
-<approved hash="5,16,a2774d9c6a1d4be7"/>
-<approved hash="5,16,9ce5be0abc8d8872"/>
-<approved hash="5,16,5bbb2b57d3d0ad2c"/>
-<approved hash="5,16,79cd512181a6a75a"/>
-<approved hash="23,16,13ff0a190a7e1398"/>
-<approved hash="5,16,a5d07c29193d8ed4"/>
-<approved hash="5,16,f287477fd06aab83"/>
-<approved hash="5,16,8f69b1856f025ffe"/>
-</errors>
 </board>
 </drawing>
 <compatibility>
