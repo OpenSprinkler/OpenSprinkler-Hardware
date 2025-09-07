@@ -1,2 +1,3 @@
 # OpenSprinkler-Hardware
-OpenSprinkler Hardware Design files, made in EagleCAD software.
+OpenSprinkler Hardware and Enclosure files.
+The .sch and .brd files are created in Eagle CAD.
