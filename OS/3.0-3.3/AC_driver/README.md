@@ -3,3 +3,5 @@
 - AC driver 3.1 (i.e. revision 1) uses a PCA9555 (16-channel) IO expander.
 
 - AC driver 3.2 (i.e. revision 2) matches master version 3.2 with support for wired Ethernet module.
+
+- AC driver 3.2-updated (revision 3) adds a diode drop on PCA9555's VIN pin for more reliable interface with ESP8266's 3.3V logic.

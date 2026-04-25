@@ -4,4 +4,4 @@
 
 - DC driver 3.2 (i.e. revision 2) matches master version 3.2 with support for wired Ethernet module.
 
-
+- DC driver 3.3 (i.e. revision 3) replaces the 7805 linear regulator with XL2001 switching regulator for higher power conversion efficiency, ideal when using the controller with wired Ethernet.
